@@ -56,4 +56,8 @@ public class TodoService {
 		//저장된 엔티티를 포함하는 새 리스트를 리턴한다.
 		return repository.findByUserId(entity.getUserId());
 	}
+	
+	public List<TodoEntity> output(final String userId){
+		return repository.findByUserId(userId);
+	}
 }

@@ -2,9 +2,11 @@ package com.example.first.dto;
 
 import com.example.first.model.TodoEntity;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
